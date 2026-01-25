@@ -15,7 +15,7 @@ const Hero = () => {
 
                     {/* Title */}
                     <h2 className="text-2xl md:text-4xl lg:text-5xl font-semibold text-dark-200 mb-4">
-                        Full Stack Developer
+                        Software Engineer
                     </h2>
 
                     {/* Location */}
