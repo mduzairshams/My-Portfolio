@@ -10,7 +10,7 @@ const Hero = () => {
 
                     {/* Name */}
                     <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6">
-                        <span className="gradient-text whitespace-nowrap">Mohammed Uzair Shams</span>
+                        <span className="gradient-text">Mohammed Uzair Shams</span>
                     </h1>
 
                     {/* Title */}

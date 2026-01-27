@@ -4,7 +4,7 @@ const Certifications = () => {
             title: 'Full Stack Web Development',
             issuer: 'Apna College',
             description: 'Comprehensive full-stack development training covering modern web technologies, frontend frameworks, backend development, and database management.',
-            skills: ['React', 'Node.js', 'MongoDB', 'Express.js', 'RESTful APIs', 'Authentication'],
+            skills: ['MongoDB', 'Express.js', 'React', 'Node.js', 'RESTful APIs', 'Authentication', 'Responsive Design', 'HTML5', 'CSS3', 'JavaScript ES6+'],
             link: 'https://drive.google.com/file/d/1rZjPLKGoTumT74bNhXpXXiB-nrHpX7a3/view?usp=sharing',
             icon: (
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
