@@ -1,57 +1,22 @@
 const Experience = () => {
     const experiences = [
         {
-            type: 'achievement',
-            title: 'Guinness World Record',
-            organization: 'Agentathon 2025',
-            period: '2025',
-            description: 'Participated in the world\'s largest AI hackathon and contributed to setting a Guinness World Record.',
-            highlights: [
-                'Part of a global event with thousands of participants',
-                'Collaborated on cutting-edge AI solutions',
-                'Demonstrated teamwork and innovation under pressure'
-            ],
-            icon: (
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-                </svg>
-            ),
-        },
-        {
-            type: 'internship',
-            title: 'Frontend Development Intern',
+            title: 'Frontend Developer Intern',
             organization: 'ApexPlanet',
             period: 'May 2025 - July 2025',
-            description: 'Contributed to frontend development tasks, building responsive and visually appealing user interfaces.',
+            description: 'Contributed to frontend development projects, building responsive and visually appealing user interfaces using modern web technologies and frameworks.',
             highlights: [
-                'Built responsive UIs with modern frameworks',
-                'Completed assigned tasks independently within deadlines',
-                'Enhanced skills in UI/UX design and code optimization',
-                'Improved cross-browser compatibility expertise',
-                'Strengthened time management and task prioritization'
+                'Developed responsive web applications with React and modern CSS frameworks',
+                'Collaborated with cross-functional teams to deliver high-quality features',
+                'Implemented pixel-perfect UI designs with attention to detail',
+                'Optimized application performance and enhanced user experience',
+                'Successfully completed all assigned tasks within project deadlines',
+                'Gained hands-on experience with version control and agile methodologies'
             ],
+            certificate: 'https://drive.google.com/file/d/1y9joDs_8x6f3E8u8Jymfoll8o2B_lZeN/view?usp=sharing',
             icon: (
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-            ),
-        },
-        {
-            type: 'project',
-            title: 'AutoFixX - AI Debugging Platform',
-            organization: 'Team Project at Agentathon 2025',
-            period: '2025',
-            description: 'Led development of an Agentic AI platform for autonomous debugging, shortlisted at world\'s largest AI hackathon.',
-            highlights: [
-                'Designed multi-agent AI architecture',
-                'Implemented secure backend orchestration',
-                'Demonstrated strong teamwork and collaboration skills',
-                'Worked with cutting-edge LLM technologies',
-                'Delivered production-ready solution under tight deadlines'
-            ],
-            icon: (
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
             ),
         },
@@ -62,11 +27,11 @@ const Experience = () => {
             <div className="max-w-5xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                        Experience & <span className="gradient-text">Achievements</span>
+                        Work <span className="gradient-text">Experience</span>
                     </h2>
                     <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-primary-400 mx-auto rounded-full"></div>
                     <p className="text-dark-300 mt-6 text-lg max-w-2xl mx-auto">
-                        Professional journey and notable accomplishments
+                        Professional journey and hands-on industry experience
                     </p>
                 </div>
 
@@ -95,7 +60,7 @@ const Experience = () => {
                                     <p className="text-dark-200 mb-4 leading-relaxed">{exp.description}</p>
 
                                     {/* Highlights */}
-                                    <ul className="space-y-2">
+                                    <ul className="space-y-2 mb-4">
                                         {exp.highlights.map((highlight, hIndex) => (
                                             <li key={hIndex} className="flex items-start gap-2 text-dark-300">
                                                 <svg className="w-5 h-5 text-primary-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -105,6 +70,19 @@ const Experience = () => {
                                             </li>
                                         ))}
                                     </ul>
+
+                                    {/* Certificate Link */}
+                                    <a
+                                        href={exp.certificate}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 text-primary-400 hover:text-primary-300 transition-colors duration-200 font-medium"
+                                    >
+                                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                        </svg>
+                                        View Internship Certificate
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -116,3 +94,4 @@ const Experience = () => {
 };
 
 export default Experience;
+
