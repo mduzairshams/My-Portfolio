@@ -6,6 +6,25 @@ const Projects = () => {
 
     const projects = [
         {
+            id: 5,
+            title: 'EarnGenAI',
+            subtitle: 'Skill & Project Marketplace',
+            description: 'A full-stack skill development and project marketplace platform enabling students to learn skills, collaborate, and earn through real-world opportunities.',
+            fullDescription: 'Developed a full-stack skill development and project marketplace platform enabling students to learn skills, collaborate, and earn through real-world opportunities. Designed a peer-to-peer learning ecosystem allowing learners to teach, mentor, and upskill one another through community-driven knowledge sharing. Implemented a gamified reward system with achievement badges, reward points, and discount and redemption features to drive user engagement and retention.',
+            technologies: ['React.js', 'Node.js', 'Express.js', 'JavaScript', 'Supabase', 'Groq API', 'REST APIs', 'HTML5', 'CSS3', 'Vercel', 'Render', 'GitHub'],
+            liveLink: 'https://earngen-ai.vercel.app/',
+            githubLink: 'https://github.com/ZebaFathima1/EARNGEN-AI',
+            features: [
+                'Full-stack skill development and project marketplace platform for students',
+                'Peer-to-peer learning ecosystem enabling learners to teach, mentor, and upskill one another',
+                'Gamified reward system with achievement badges, reward points, and redemption features',
+                'Seamless community-driven knowledge sharing and upskilling opportunities',
+                'Integration with Supabase and Groq API for robust backend and AI capabilities'
+            ],
+            gradient: 'from-violet-500 to-indigo-500',
+            badge: 'Team Project',
+        },
+        {
             id: 1,
             title: 'FinPlot',
             subtitle: 'Stock Trading Application',
@@ -30,7 +49,7 @@ const Projects = () => {
             description: 'A full-stack rental platform for browsing, posting, and managing property listings with secure authentication.',
             fullDescription: 'Built a full-stack rental platform to browse, post, review, and manage property listings with a responsive UI. Designed modular Express.js architecture with clean routing. Integrated secure login/signup using Passport.js, sessions, flash messages, and used MongoDB Atlas with Mongoose for schema modeling and cloud data storage. Implemented GST-based pricing logic and user-specific content visibility with role checks, added method-override, input validation, and centralized error handling via custom Express Error.',
             technologies: ['Node.js', 'Express.js', 'MongoDB Atlas', 'Bootstrap', 'Passport.js', 'Mongoose', 'EJS'],
-            liveLink: 'https://airbnb-ovpu.onrender.com/',
+            liveLink: null,
             githubLink: 'https://github.com/mduzairshams/HomeQuest',
             features: [
                 'Secure user authentication with Passport.js',

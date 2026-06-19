@@ -1,6 +1,22 @@
 const Experience = () => {
     const experiences = [
         {
+            title: 'Full Stack Developer',
+            organization: 'Zelvora Technologies Pvt. Ltd',
+            period: 'February 2026 – Present',
+            description: 'Architect and develop scalable web platforms and custom digital solutions for clients across diverse business domains, translating requirements into production-ready applications with 99%+ uptime.',
+            highlights: [
+                'Engineered high-performance user interfaces using modern frameworks, ensuring 100% cross-browser compatibility',
+                'Analyze and translate complex client business requirements into functional, robust web solutions',
+                'Collaborate closely with clients throughout design and implementation phases to iterate on feedback and ensure technical alignments'
+            ],
+            icon: (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+            ),
+        },
+        {
             title: 'Frontend Developer Intern',
             organization: 'ApexPlanet',
             period: 'May 2025 - July 2025',
@@ -10,8 +26,7 @@ const Experience = () => {
                 'Collaborated with cross-functional teams to deliver high-quality features',
                 'Implemented pixel-perfect UI designs with attention to detail',
                 'Optimized application performance and enhanced user experience',
-                'Successfully completed all assigned tasks within project deadlines',
-                'Gained hands-on experience with version control and agile methodologies'
+                'Successfully completed all assigned tasks within project deadlines'
             ],
             certificate: 'https://drive.google.com/file/d/1y9joDs_8x6f3E8u8Jymfoll8o2B_lZeN/view?usp=sharing',
             icon: (
@@ -72,17 +87,19 @@ const Experience = () => {
                                     </ul>
 
                                     {/* Certificate Link */}
-                                    <a
-                                        href={exp.certificate}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="inline-flex items-center gap-2 text-primary-400 hover:text-primary-300 transition-colors duration-200 font-medium"
-                                    >
-                                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                        </svg>
-                                        View Internship Certificate
-                                    </a>
+                                    {exp.certificate && (
+                                        <a
+                                            href={exp.certificate}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="inline-flex items-center gap-2 text-primary-400 hover:text-primary-300 transition-colors duration-200 font-medium"
+                                        >
+                                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                            </svg>
+                                            View Internship Certificate
+                                        </a>
+                                    )}
                                 </div>
                             </div>
                         </div>
