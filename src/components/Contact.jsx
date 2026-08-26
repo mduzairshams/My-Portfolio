@@ -86,7 +86,7 @@ const Contact = () => {
                         Get a comprehensive overview of my skills, experience, and projects
                     </p>
                     <a
-                        href="https://drive.google.com/file/d/1s1mMQYYLdFpY-suICO36KeowNI93OIIw/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1vQsgHE-yLPab0P8dmfuAZVxPmlqZA2zL/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn-primary inline-flex items-center gap-2"

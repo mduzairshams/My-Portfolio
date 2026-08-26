@@ -111,7 +111,7 @@ const Navbar = () => {
                                 </a>
                             ))}
                             <a
-                                href="https://drive.google.com/file/d/1s1mMQYYLdFpY-suICO36KeowNI93OIIw/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1vQsgHE-yLPab0P8dmfuAZVxPmlqZA2zL/view?usp=sharing"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn-primary text-center"
