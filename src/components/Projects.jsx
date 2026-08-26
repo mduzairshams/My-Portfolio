@@ -6,6 +6,29 @@ const Projects = () => {
 
     const projects = [
         {
+            id: 6,
+            title: 'YUR Library',
+            subtitle: 'College-Specific Academic Resource Platform',
+            description: 'A full-stack academic resource-sharing platform helping university students discover, request, and contribute college-specific study materials through a moderated community-driven ecosystem.',
+            fullDescription: 'Developed a full-stack academic resource-sharing platform for university students to access study materials relevant to their college, subjects, and semesters. Implemented RBAC with separate student and admin workflows, allowing students to contribute notes while administrators review and approve content. Built searchable and filterable note discovery with previews, downloads, ratings, reviews, comments, requests, and download tracking. Integrated MongoDB to manage users, notes, requests, reviews, comments, downloads, and moderation workflows.',
+            technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'REST APIs', 'HTML5', 'CSS3', 'Vercel'],
+            liveLink: 'https://yur-library.vercel.app/login',
+            githubLink: 'https://github.com/mduzairshams/YUR-Library',
+            features: [
+                'College-specific notes discovery with subject, college, semester, year, and keyword filtering',
+                'Role-Based Access Control (RBAC) for student and admin workflows',
+                'Student note uploads with admin moderation and approval',
+                'Note preview, downloads, and per-note download tracking',
+                'Student-driven requests for missing study materials',
+                'Reviews, ratings, and comments on shared notes',
+                'Admin dashboard with users, notes, downloads, moderation, and request metrics',
+                'MongoDB-backed management of platform data and workflows',
+                'Live production platform used by real users'
+            ],
+            gradient: 'from-blue-500 to-violet-500',
+            badge: 'Team Project',
+        },
+        {
             id: 5,
             title: 'EarnGenAI',
             subtitle: 'Skill & Project Marketplace',
