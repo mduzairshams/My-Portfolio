@@ -72,7 +72,7 @@ const Projects = () => {
             description: 'A full-stack rental platform for browsing, posting, and managing property listings with secure authentication.',
             fullDescription: 'Built a full-stack rental platform to browse, post, review, and manage property listings with a responsive UI. Designed modular Express.js architecture with clean routing. Integrated secure login/signup using Passport.js, sessions, flash messages, and used MongoDB Atlas with Mongoose for schema modeling and cloud data storage. Implemented GST-based pricing logic and user-specific content visibility with role checks, added method-override, input validation, and centralized error handling via custom Express Error.',
             technologies: ['Node.js', 'Express.js', 'MongoDB Atlas', 'Bootstrap', 'Passport.js', 'Mongoose', 'EJS'],
-            liveLink: null,
+            liveLink: 'https://airbnb-ovpu.onrender.com/',
             githubLink: 'https://github.com/mduzairshams/HomeQuest',
             features: [
                 'Secure user authentication with Passport.js',
