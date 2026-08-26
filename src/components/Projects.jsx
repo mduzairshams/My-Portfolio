@@ -9,8 +9,8 @@ const Projects = () => {
             id: 6,
             title: 'YUR Library',
             subtitle: 'College-Specific Academic Resource Platform',
-            description: 'A full-stack academic resource-sharing platform helping university students discover, request, and contribute college-specific study materials through a moderated community-driven ecosystem.',
-            fullDescription: 'Developed a full-stack academic resource-sharing platform for university students to access study materials relevant to their college, subjects, and semesters. Implemented RBAC with separate student and admin workflows, allowing students to contribute notes while administrators review and approve content. Built searchable and filterable note discovery with previews, downloads, ratings, reviews, comments, requests, and download tracking. Integrated MongoDB to manage users, notes, requests, reviews, comments, downloads, and moderation workflows.',
+            description: 'A full-stack academic resource-sharing platform for students to discover, request, and contribute college-specific study materials. Currently serving 40+ Users, 70+ Uploads, 50+ Downloads.',
+            fullDescription: 'Developed a full-stack academic resource-sharing platform for university students to discover and share college-specific study materials, now serving 40+ users with 70+ resources uploaded and 50+ downloads. Implemented RBAC with dedicated student and admin workflows for resource contribution, moderation, and approval. Built searchable and filterable resource discovery with previews, downloads, ratings, reviews, comments, requests, and download tracking. Integrated MongoDB to manage users, resources, requests, reviews, comments, downloads, and moderation workflows.',
             technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'REST APIs', 'HTML5', 'CSS3', 'Vercel'],
             liveLink: 'https://yur-library.vercel.app/login',
             githubLink: 'https://github.com/mduzairshams/YUR-Library',
@@ -25,7 +25,7 @@ const Projects = () => {
                 'MongoDB-backed management of platform data and workflows',
                 'Live production platform used by real users'
             ],
-            gradient: 'from-blue-500 to-violet-500',
+            gradient: 'from-amber-300 to-yellow-600',
             badge: 'Team Project',
         },
         {
@@ -82,7 +82,7 @@ const Projects = () => {
                 'Review and rating system',
                 'Responsive UI with Bootstrap'
             ],
-            gradient: 'from-purple-500 to-pink-500',
+            gradient: 'from-gray-400 to-zinc-700',
         },
         {
             id: 3,

@@ -1,5 +1,24 @@
+import ApnaCollegeLogo from './ApnaCollegeLogo.png';
+import Tcsionlogo from './TCS_iON-logo.png';
+import ciscologo from './ciscologo.webp';
 const Certifications = () => {
     const certifications = [
+        {
+            title: 'Microsoft Certified: Azure AI Apps and Agents Developer Associate AI-103',
+            issuer: 'Microsoft',
+            description: 'Microsoft certification validating skills in developing and implementing AI solutions, applications, and intelligent agents using Microsoft Azure.',
+            skills: ['Microsoft Azure', 'Azure AI', 'AI Applications', 'AI Agents', 'Generative AI', 'Azure AI Foundry'],
+            link: 'https://drive.google.com/file/d/1Ymd4vQf_BWSGsjxrLZY-d-oDvjzuL-YO/view',
+            icon: (
+<svg className="w-10 h-10" viewBox="0 0 24 24">
+        <rect x="2" y="2" width="9" height="9" fill="#F25022" />
+        <rect x="13" y="2" width="9" height="9" fill="#7FBA00" />
+        <rect x="2" y="13" width="9" height="9" fill="#00A4EF" />
+        <rect x="13" y="13" width="9" height="9" fill="#FFB900" />
+    </svg>
+            ),
+            gradient: 'bg-black',
+        },
         {
             title: 'Full Stack Web Development',
             issuer: 'Apna College',
@@ -7,11 +26,13 @@ const Certifications = () => {
             skills: ['MongoDB', 'Express.js', 'React', 'Node.js', 'RESTful APIs', 'Authentication', 'Responsive Design', 'HTML5', 'CSS3', 'JavaScript ES6+'],
             link: 'https://drive.google.com/file/d/1rZjPLKGoTumT74bNhXpXXiB-nrHpX7a3/view?usp=sharing',
             icon: (
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-                </svg>
+                <img
+        src={ApnaCollegeLogo}
+        alt="Apna College"
+        className="w-full h-full object-contain"
+    />
             ),
-            gradient: 'from-blue-500 to-cyan-500',
+            gradient: 'bg-white',
         },
         {
             title: 'TCS iON Career Edge - Young Professional',
@@ -20,9 +41,11 @@ const Certifications = () => {
             skills: ['Professional Communication', 'Problem Solving', 'Critical Thinking', 'Workplace Ethics', 'Team Collaboration'],
             link: 'https://drive.google.com/file/d/13jjwYLM3ZCOMcOdjKdvkHqmYWfvMT6gx/view?usp=sharing',
             icon: (
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
+                <img
+        src={Tcsionlogo}
+        alt="TCS iON"
+        className="w-full h-full object-contain"
+    />
             ),
             gradient: 'from-purple-500 to-pink-500',
         },
@@ -33,11 +56,13 @@ const Certifications = () => {
             skills: ['Python Programming', 'Data Structures', 'OOP Concepts', 'File Handling', 'Error Handling', 'Modules & Packages'],
             link: 'https://drive.google.com/file/d/1fOgQA3nNNivJsuggga1You332qSsQMMR/view?usp=sharing',
             icon: (
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
-                </svg>
+                <img
+        src={ciscologo}
+        alt="Cisco"
+        className="w-full h-full object-contain"
+    />
             ),
-            gradient: 'from-green-500 to-teal-500',
+            gradient: 'bg-white',
         },
     ];
 
